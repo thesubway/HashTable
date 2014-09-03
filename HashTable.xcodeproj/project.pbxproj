@@ -13,6 +13,8 @@
 		6DCF763C19B65DE70098298B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DCF763A19B65DE70098298B /* Main.storyboard */; };
 		6DCF763E19B65DE70098298B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DCF763D19B65DE70098298B /* Images.xcassets */; };
 		6DCF764A19B65DE70098298B /* HashTableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DCF764919B65DE70098298B /* HashTableTests.swift */; };
+		6DCF765419B65E280098298B /* HashBucket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DCF765319B65E280098298B /* HashBucket.swift */; };
+		6DCF765619B65E7C0098298B /* HashTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DCF765519B65E7C0098298B /* HashTable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		6DCF764319B65DE70098298B /* HashTableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HashTableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DCF764819B65DE70098298B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6DCF764919B65DE70098298B /* HashTableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashTableTests.swift; sourceTree = "<group>"; };
+		6DCF765319B65E280098298B /* HashBucket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HashBucket.swift; sourceTree = "<group>"; };
+		6DCF765519B65E7C0098298B /* HashTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HashTable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,8 @@
 			children = (
 				6DCF763319B65DE70098298B /* AppDelegate.swift */,
 				6DCF763819B65DE70098298B /* ViewController.swift */,
+				6DCF765319B65E280098298B /* HashBucket.swift */,
+				6DCF765519B65E7C0098298B /* HashTable.swift */,
 				6DCF763A19B65DE70098298B /* Main.storyboard */,
 				6DCF763D19B65DE70098298B /* Images.xcassets */,
 				6DCF763519B65DE70098298B /* HashTable.xcdatamodeld */,
@@ -212,6 +218,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6DCF763919B65DE70098298B /* ViewController.swift in Sources */,
+				6DCF765419B65E280098298B /* HashBucket.swift in Sources */,
+				6DCF765619B65E7C0098298B /* HashTable.swift in Sources */,
 				6DCF763719B65DE70098298B /* HashTable.xcdatamodeld in Sources */,
 				6DCF763419B65DE70098298B /* AppDelegate.swift in Sources */,
 			);
